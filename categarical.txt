@@ -1,0 +1,9 @@
+import pandas as pd
+from sklearn.preprocessing import LabelEncoder
+
+sampledata = {
+    'Gender' : ['male', 'female', 'female', 'male', 'female', 'female'],
+    'Position' : ['CEO', 'Cleaner', 'Employee', 'Cleaner', 'CEO', 'Cleaner']
+}
+data = pd.DataFrame(sampledata)
+data

@@ -1,0 +1,7 @@
+import pandas as pd
+data=pd.read_csv('titanic.csv')
+data.head()
+data.tail()
+data.isnull().sum()
+updated_data = data.dropna(axis=1)
+updated_data.isnull().sum()
